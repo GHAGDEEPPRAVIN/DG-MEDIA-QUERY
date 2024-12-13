@@ -1,0 +1,342 @@
+
+    /* tab screen */
+
+@media (max-width:800px)
+{
+    /* banner code */
+    .banner
+    {
+        height: 500px;
+        width: 100%;
+    }
+    .bannercontainer .bannerimfo
+    {
+        width: 90%;
+        margin: auto;
+    }
+
+    /* projects code */
+
+    .projectscontainer .projectgallery 
+    {
+        width: 100%;
+        display: flex;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+    .projectscontainer .projectgallery .image1 
+    {
+        width: 48%;
+        height: 242px;
+    }
+    .projectscontainer .projectgallery .image1 img
+    {
+        width: 100%;
+        height: 242px;
+    }
+    
+
+    /* contact. */
+
+    #contact
+    {
+        width: 100%;
+    }
+    .contactcontainer
+    {
+        width: 80%;
+        margin: auto;
+        position: relative;
+        left: 70px;
+    }
+    .contactcontainer h1
+    {
+        margin-left: -90px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 45px;
+        font-family:Futura-LT-Light;
+    }
+    .contactcontainer .name
+    {
+        width: 100%;
+        height: auto;
+    }
+    .contactcontainer .name ul
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactcontainer .name ul li
+    {
+        width: 100%;
+        list-style: none;
+        margin: 0px 0px 0px 0px;
+    }
+    .contactcontainer ul li
+    {
+        list-style: none;
+        margin-bottom: 10px;
+    }
+    input
+    {
+        width: 80%;
+        height: 40px;
+        border: 1px solid rgb(86, 86, 86);
+        outline: none;
+    }
+    .contactcontainer .name ul input
+    {
+        width: 80%;
+        height: 40px;
+    }
+    .contactcontainer button
+    {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        height: 40px;
+        width: 40%;
+        position: relative;
+        left: 130px;
+        border: none;
+        outline: none;
+        background-color: black;
+    }
+    .contactcontainer button a
+    {
+        width: 100%;
+    }
+    .contactcontainer textarea
+    {
+        height: 80px;
+        width: 80%;
+        padding: 8px 0px;
+    }
+}
+
+    /* mobile screen */
+
+@media screen and (max-width:480px) 
+{
+
+    /* banner code */
+
+    .bannercontainer .bannerimfo ul
+    {
+        width: 100%;
+        visibility: hidden;
+    }
+    .banner
+    {
+        height: 600px;
+        width: 100%;
+        background-image: url('images/bannerformoblie.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: initial;
+    }
+    .bannerimfo span
+    {
+        position: relative;
+        top: 35px;
+        background-color: black;
+        height: 85px;
+        width: 85px;
+        line-height: 85px;
+        border-radius: 50px;
+        text-align: center;
+    }
+    .bannercontainer .bannerimfo p
+    {
+        margin-top: 83px;
+        text-align: center;
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 400;
+    }
+
+    /* project code */
+
+    #projects
+    {
+        width: 100%;
+        padding: 20px 0px 120px 0px;
+    }
+    .projectscontainer
+    {
+        width: 90%;
+    }
+    .projectscontainer h1
+    {
+        text-align: center;
+        font-size: 45px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .projectscontainer .projectgallery
+    {
+        margin-top: 10px;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .projectscontainer .projectgallery .image1
+    {
+        margin-bottom: 10px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    /* black-white image */
+
+    .bwimage
+    {
+        width: 100%;
+    }
+    .bwimagecontainer
+    {
+        margin-top: -95px;
+        height: 200px;
+        width: 100%;
+        background-image: url('images/fixed-image1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: initial ;
+    }
+
+    /* about code */
+
+    .aboutcontanier
+    {
+        height: 300px;
+        width: 90%;
+        margin: auto;
+    }
+    .aboutcontanier h1
+    {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 45px;
+        font-family:Futura-LT-Light;
+    }
+    .aboutcontanier p
+    {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: 400;
+        font-family:Futura-LT-Light;
+    }
+
+    /* centeral image code */
+
+    .centeral
+    {
+        margin-top: 40px;
+        width: 100%;
+    }
+    .centeralimage
+    {
+        height: 176px;
+        width: 100%;
+        background-image: url('images/central.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: initial;
+    }
+
+    /* contact. code */
+
+    #contact
+    {
+        width: 100%;
+    }
+    .contactcontainer
+    {
+        width: 80%;
+        position: static;
+        margin: auto;
+        align-content: center;
+    }
+    .contactcontainer h1
+    {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 45px;
+        font-family:Futura-LT-Light;
+    }
+    .contactcontainer .name
+    {
+        width: 100%;
+        height: auto;
+    }
+    .contactcontainer .name ul
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactcontainer .name ul li
+    {
+        width: 100%;
+        list-style: none;
+        margin: 0px 0px 0px 0px;
+    }
+    .contactcontainer ul li
+    {
+        list-style: none;
+        margin-bottom: 10px;
+    }
+    input
+    {
+        width: 100%;
+        height: 40px;
+        border: 1px solid rgb(86, 86, 86);
+        outline: none;
+    }
+    .contactcontainer .name ul input
+    {
+        width: 100%;
+        height: 40px;
+    }
+    .contactcontainer button
+    {
+        margin-top: 10px;
+        height: 40px;
+        width: 100%;
+        position: static;
+        border: none;
+        outline: none;
+        background-color: black;
+    }
+    .contactcontainer button a
+    {
+        width: 100%;
+    }
+    .contactcontainer textarea
+    {
+        height: 80px;
+        width: 100%;
+        padding: 8px 0px;
+    }
+
+    /* futter code */
+
+    .futtercontainer
+    {
+        height: auto;
+        width: 100%;
+        line-height: auto;
+    }
+    .futtercontainer p
+    {
+        text-align: center;
+    }
+} 

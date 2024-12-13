@@ -1,0 +1,309 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+        /* banner code */
+
+.banner
+{
+    width: 100%;
+}
+.bannercontainer
+{
+    width: 100%;
+}
+.banner
+{
+    height: 750px;
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url('images/video.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannercontainer .bannerimfo
+{
+    width: 70%;
+    margin: auto;   
+} 
+.bannercontainer .bannerimfo span
+{
+    margin-top: 20px;
+    margin-bottom: 24px;
+    background-color: black;
+    height: 85px;
+    width: 85px;
+    line-height: 85px;
+    border-radius: 50px;
+    display: block;
+    text-align: center;
+}
+.bannercontainer .bannerimfo span a
+{
+    transition: 0.7s;
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+.bannercontainer .bannerimfo ul
+{
+    margin-top: 20px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.bannercontainer .bannerimfo ul li
+{
+    list-style: none;
+    padding: 0px 10px;
+}
+.bannercontainer .bannerimfo ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+.bannercontainer .bannerimfo p
+{
+    margin-top: 45px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.bannercontainer .bannerimfo i
+{
+    position: relative;
+    top: 10px;
+    left: 50%;
+    height: 14px;
+    width: 25px;
+}
+.bannercontainer .bannerimfo a
+{
+    color: black;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+        /* projects. code */
+
+#projects 
+{
+    width: 100%;
+    background-color: white;
+    padding: 90px 0px 90px 0px;
+    position: relative;
+    top: -80px;
+} 
+.projectscontainer
+{
+    width: 90%;
+    margin: auto;
+}
+.projectscontainer h1
+{
+    text-align: center;
+    font-size: 85px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.projectscontainer .projectgallery
+{
+    margin-top: 100px;
+    width: 100%;
+}
+.projectscontainer .projectgallery 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* margin-bottom: 20px; */
+}
+.projectscontainer .projectgallery .image1
+{
+    width: 32%;
+    height: 242px;
+    margin-bottom: 25px;
+}
+
+
+        /* black-white image */
+
+.bwimage
+{
+    width: 100%;
+}
+.bwimagecontainer
+{
+    margin-top: -95px;
+    height: 480px;
+    width: 100%;
+    background-image: url('images/fixed-image1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+        /* about code */
+
+#about
+{
+    width: 100%;
+}      
+.aboutcontanier
+{
+    height: 391px;
+    width: 90%;
+    margin: auto;
+}
+.aboutcontanier h1
+{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 85px;
+    font-family:Futura-LT-Light;
+}
+.aboutcontanier p
+{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family:Futura-LT-Light;
+}
+
+        /* centeral image code */
+
+.centeral
+{
+    width: 100%;
+}  
+.centeralimage
+{
+    margin-top: -95px;
+    height: 480px;
+    width: 100%;
+    background-image: url('images/central.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}    
+
+        /* contact. code */
+
+#contact
+{
+    width: 100%;
+}        
+.contactcontainer
+{
+    width: 40%;
+    margin: auto;
+}
+.contactcontainer h1
+{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 85px;
+    font-family:Futura-LT-Light;
+}
+.contactcontainer .name ul
+{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.contactcontainer .name ul li
+{
+    list-style: none;
+    margin-right: 150px;
+    margin-bottom: 10px;
+}
+.contactcontainer ul li
+{
+    list-style: none;
+    margin-bottom: 10px;
+}
+input
+{
+    width: 95.5%;
+    height: 40px;
+    border: 1px solid rgb(86, 86, 86);
+    outline: none;
+
+}
+.contactcontainer ul li:hover input
+{
+    background-color: whitesmoke;
+}
+.contactcontainer ul li:hover textarea
+{
+    background-color: whitesmoke;
+    color: black;
+}
+.contactcontainer .name ul input
+{
+    width: 180%;
+    height: 40px;
+}
+.contactcontainer .name ul li label
+{
+    margin-bottom: 8px;
+}
+.contactcontainer label
+{
+    width: 100%;
+}
+.contactcontainer button
+{
+    position: relative;
+    left: 380px;
+    border: none;
+    outline: none;
+    background-color: black;
+    height: 40px;
+    width: 150px;
+}
+.contactcontainer button a
+{
+    color: white;
+    text-decoration: none;
+}
+.contactcontainer textarea
+{
+    width: 95.5%;
+    height: 75px;
+    padding: 0px 12px;
+}
+
+        /* futter code */
+
+.futter 
+{
+    width: 100%;
+    background-color: #993717;
+}
+.futtercontainer       
+{
+    height: 53px;
+    width: 30%;
+    line-height: 53px;
+    margin: auto;
+}
+.futtercontainer p
+{
+    color: white;
+}
