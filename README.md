@@ -4,7 +4,7 @@
 
 <h2>Gallery</h2>
 
-<img src="gallery.png">
+<a href="https://dulcet-cassata-be6cd9.netlify.app/"><img src="gallery.png"></a>
 
 
 <h2>min-width</h2>
