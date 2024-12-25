@@ -9,4 +9,4 @@
 
 <h2>min-width</h2>
 
-<img src="min-width.png">
+<a href="https://inquisitive-bienenstitch-a137b9.netlify.app/"><img src="min-width.png"></a>
