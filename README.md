@@ -6,3 +6,7 @@
 
 <img src="gallery.png">
 
+
+<h2>min-width</h2>
+
+<img src="min-width.png">
